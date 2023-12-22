@@ -369,7 +369,7 @@ nav ul a:hover {
 
    .gmbr1 img, .gmbr2 img {
       border-radius: 20px;
-      /* width: 20px; */
+      /* width: 150px; */
    }
     
 
@@ -770,6 +770,15 @@ footer{
   margin-left: 0;
   margin-top: 20px;
 }
+.gmbr1 img, .gmbr2 img {
+   width: 180px;
+}
+
+.awan {
+   width: 289px;
+}
+
+
 
 
 }
@@ -796,7 +805,6 @@ footer{
     top: 0;
     align-items: center;
     justify-content: space-evenly;
-    /* position: relative; */
     /* z-index: -1; */
     transform: translateX(100%);
     transition: all 1s;
@@ -805,38 +813,37 @@ footer{
    nav ul.slide {
       transform: translateX(0);
    }
-
-  
-
+   
+   
    .hal1 {
       flex-direction: column;
-        padding-bottom: 5vh;
-        /* background-image: none; */
-        text-align: center;
-
+      padding-bottom: 5vh;
+      /* background-image: none; */
+      text-align: center;
+      
    }
-
+   
    .action {
       flex-direction: column;
       align-items: center;
 
    }
-
-
+   
+   
    .order2{
       order: 2;
 
    }
-
+   
    .order1 {
       order: 1;
    }
-
-
+   
+   
    .hal1 .action {
       display: none;
    }
-
+   
    .about {
       flex-direction: column;
       text-align: center;
@@ -845,26 +852,30 @@ footer{
    .about_text h2 {
       font-size: 40px;
       margin-top: 20px;
-
+      
    }
 
+   .awan {
+      width: 289px;
+   }
+   
    .hal2 {
       padding: 50px 0px;
-
+      
    }
    .about_text {
-      width: 400px;
-    }
-
-.imghal2 {
-   flex-direction: column;
-   align-items: center;
-   margin-top: -20px;
+      width: 300px;
+   }
+   
+   .imghal2 {
+      flex-direction: column;
+      align-items: center;
+      margin-top: -20px;
 }
 
 .imgbt {
-  justify-content: center;
-  margin-left: 0;
+   justify-content: center;
+   margin-left: 0;
   margin-top: 20px;
 }
 
@@ -877,11 +888,21 @@ footer{
    padding: 0;
 }
 
+.gmbr1, .gmbr2 {
+   width: 250px;
+}
+
+.gmbr1 img, .gmbr2 img {
+   width: 180px;
+}
+
 .projectsj {
    flex-direction: column;
    align-items: center;
 
 }
+
+
 
 .footernav ul {
    flex-direction: column;
@@ -895,11 +916,29 @@ footer{
 
 .footc {
    padding: 0px 30px 20px;
- }
+}
+
+input,
+textarea {
+   width: 70%;
+}
+
+.right_con button {
+   padding: 10px 30px;
+}
+
+.left, .right h2 {
+   font-size: 1.7rem;
+}
+
+.left p {
+   font-size: 0.6rem;
+}
 
 
 }
 
 
-@media only screen and (max-width : 768px)
+
+
 
