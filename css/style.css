@@ -96,6 +96,7 @@ nav ul a:hover {
 
  .action {
     display: flex;
+    align-items: center;
     /* text-decoration: none; */
     /* justify-content: space space-between; */
     
@@ -122,12 +123,22 @@ nav ul a:hover {
    box-shadow: -5px -5px 80px rgb(138, 138, 238);
  }
 
- 
- .icon img {
-   margin-left: 20px;
-   border: 2px solid transparent;
-   padding: 10px;
-   border-radius: 10px;
+ .icon a {
+    text-decoration: none;
+   transition: transform .4s;
+
+ }
+
+ .icon i {
+   /* margin-left: 20px; */
+   /* border: 2px solid transparent; */
+   padding: 5px;
+   margin-left: 10px;
+   /* border-radius: 10px; */
+   color: rgb(138, 138, 238);
+   font-size: 37px;
+   /* transition: transform .4s; */
+   
    
    /* height: 30px;
    width: 20px;
@@ -138,18 +149,21 @@ nav ul a:hover {
 
  .icon {
     margin-left: 20px;
+    display: flex;
+    /* gap: 10px; */
     /* height: 30px; */
     /* width: 30px; */
     
  }
 
 
- .icon img:hover {
-   background-color: rgb(212, 205, 222);
+ .icon a:hover {
+   transform: translateY(-.50rem);
+   /* background-color: rgb(212, 205, 222);
    border: 1px solid  rgb(138, 138, 238);
    transition: .3s;
    border-radius: 30%;
-   box-shadow: -5px -5px 80px rgb(138, 138, 238);
+   box-shadow: -5px -5px 80px rgb(138, 138, 238); */
     
  } 
  
@@ -231,23 +245,21 @@ nav ul a:hover {
 
 .imghal2 {
    display: flex;
-
    
 }
 
-.img1_2 {
-  /* padding: 10px; */
-  /* margin: 10px; */
- 
+.img1_2 a {
+  text-decoration: none;
 }
 
-.img1_2 img{
+.img1_2 i{
    border: 2px solid transparent;
-   width: 30px;
-   height: 30px;
    padding: 5px;
    margin-left: 10px;
    border-radius: 10px;
+   color: rgb(138, 138, 238);
+   font-size: 37px;
+ 
    /* background-color: rgb(138, 138, 238); */
  
 }
@@ -260,11 +272,17 @@ nav ul a:hover {
   
 }
 
-.img1_2 img:hover {
-   border: 2px solid rgb(138, 138, 238);
+.img1_2 {
+   transition: transform .4s;
+
+}
+
+.img1_2:hover {
+   transform: translateY(-.50rem);
+   /* border: 2px solid rgb(138, 138, 238);
    transition: .3s;
    box-shadow: -5px -5px 80px rgb(138, 138, 238);
-   background-color: rgb(192, 192, 205);
+   background-color: rgb(192, 192, 205); */
 
 }
 
@@ -324,7 +342,7 @@ nav ul a:hover {
 }
 
 .skill_item:hover {
-   transform: translateY(-.25rem);
+   transform: translateY(-.80rem);
 }
 
 .skill_descrip {
@@ -656,6 +674,11 @@ footer{
    box-shadow: -5px -5px 50px rgb(138, 138, 238);
    transition: .3s;
 
+}
+
+.iconsos i {
+   font-size: 40px;
+   color: rgb(138, 138, 238);
 }
 
 
